@@ -1,0 +1,26 @@
+.botao{
+    position: absolute; 
+    bottom: 90px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font: 12pt arial;
+    padding: 5px 8px;
+    background-color: rgb(180, 177, 177);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .7s ease;
+    
+    
+}
+
+.botao:hover{
+    background: linear-gradient( rgba(0, 191, 255, 0.733), rgba(128, 128, 128, 0.699));
+    color: rgb(0, 0, 0); ;
+    
+    
+}
+.hidden {
+    display: none;
+   
+}
